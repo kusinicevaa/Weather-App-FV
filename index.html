@@ -17,7 +17,68 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body><h1>Weather Forecast</h1>
+    <div class="container">
+      <br />
+      <div class="row">
+        <div class="col-6">
+          <h1>Camberley</h1>
+        </div>
+        <div class="col-6">
+          <h1 class="date">Wednesday 10:59</h1>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row"> 
+        <div class="col-6">
+          <h2>20 ℃</h2>
+          <div class="row">
+            <div class="col-2">
+              <h2>22℃</h2>
+            </div>
+            <div class="col-2">
+              <span><h2>11℃</h2></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <span>
+            <h2>Windspeed: 7km/h</h2>
+            <h2>Humidity: 80%</h2>
+          </span>
+        </div>
+      </div>
+      <i class="fa-solid fa-cloud-showers-water"></i>
+      <div class="row">
+        <div class="col-6">
+      <form id="searchcity" style="text-align: center; margin: 0 auto">
+        <div class="mb-3">
+          <br />
+          <label for="search">
+            <input
+              id="search-Bar"
+              type="text"
+              class="form-control"
+              placeholder="Search city"
+              aria-label="search"
+              aria-describedby="search bar"
+            />
+          </label>
+
+          <button
+            class="btn btn-outline-secondary listener"
+            type="submit"
+            id="button-addon2"
+          >
+            <i class="fas fa-search searchi"></i>
+          </button>
+          <br />
+          <button class="location" id="location">Current Location</button>
+        </div></div>
+      </form>
+      </div>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
