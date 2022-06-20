@@ -1,14 +1,9 @@
-body {
-  width: 100%;
-  background-color: pink;
-}
 .container {
+  color: #ff80f3;
   background-color: #9a47cb;
   text-align: center;
 }
-h1 {
-  color: #94f6f2;
-}
+
 h2 {
   margin: 0 auto;
   padding: 0;
