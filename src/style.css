@@ -1,23 +1,54 @@
-card {
-  margin: 0;
-  padding: 0;
+body {
+  width: 100%;
+  background-color: pink;
 }
 .container {
-  background-color: #d7aef3;
+  background-color: #9a47cb;
+  text-align: center;
 }
+h1 {
+  color: #94f6f2;
+}
+h2 {
+  margin: 0 auto;
+  padding: 0;
+}
+i {
+  text-align: left;
+}
+a {
+  color: #94f6f2;
+}
+
 /* //color palette
 .first-color { 
 	background: #d7aef3; 
-}
+} light purple
 	
 .second-color { 
 	background: #94f6f2; 
-}
+} light blue neon
 
 .third-color { 
 	background: #f7f680; 
-}
+} yellow
 
 .fourth-color { 
 	background: #fbd0f5; 
-} */
+} light pink*/
+
+/* .first-color { 
+	background: #9a47cb; 
+} violet
+	
+.second-color { 
+	background: #ff80f3; 
+} pink
+
+.third-color { 
+	background: #ffd48b; 
+} light orange
+
+.fourth-color { 
+	background: #fff079; 
+}light yellow*/

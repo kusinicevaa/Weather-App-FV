@@ -18,13 +18,17 @@
     ></script>
   </head>
   <body> 
+    <!-- Main info table section -->
+    <!-- div clean -->
+    <!-- headline -->
     <div class="container">
      <div class="row">
     <h1>Weather Forecast</h1>
   </div>
       <br />
+      <!-- Date & Location -->
       <div class="row">
-<div class="col-6">
+<div class="col-6"> 
           <h1>Camberley</h1>
         </div>
 <div class="col-6">
@@ -32,28 +36,34 @@
         </div>
       </div>
       <br />
-      <div class="row"> 
+      <!-- Weather Data -->
+      <div class="row">
         <div class="col-6">
           <h2>20 ℃</h2>
         </div>
-        <div class="col-6"> 
+        <br />
+        <div class="col-6">
             <h2>Windspeed: 7km/h</h2>
           </div>
           </div>
           <div class="row">
-            <div class="col-sm">
-              <h2>22℃</h2>
+            <div class="col-3">
+              <h3>22℃</h2>
             </div>
-            <div class="col-sm"><h2>11℃</h2></div>
-           <div class="col-6">
+            <div class="col-3">
+              <h2>11℃</h2>
+            </div>
+            
+           <div class="col-6"> 
              <h2>Humidity: 80%</h2>
           </div>
-        </div>
-      
-
-      <i class="fa-solid fa-cloud-showers-water"></i>
+          <br />
+          <div class="row">
+            <i class="fa-solid fa-cloud-showers-water"></i>
+          </div>
+        <br />
+<!-- Search Engine -->
       <div class="row">
-        <div class="col-6">
       <form id="searchcity" style="text-align: center; margin: 0 auto">
         <div class="mb-3">
           <br />
@@ -67,21 +77,22 @@
               aria-describedby="search bar"
             />
           </label>
-
           <button
             class="btn btn-outline-secondary listener"
             type="submit"
-            id="button-addon2"
-          >
-            <i class="fas fa-search searchi"></i>
+            id="button-addon2">
+          <i class="fas fa-search searchi"></i>
           </button>
+   <div></div>
           <br />
+<!-- Current location button -->
           <button class="location" id="location">Current Location</button>
-        </div></div>
+        </div>
       </form>
-      </div>
-    <div class="card-group">
-          <div class="card" style="width: 10px; background-color: #5a3d5c;">
+      <!-- Weather forecast in cards -->
+      <br />
+    <div class="card-group"> 
+          <div class="card w-25" style="background-color: #ff80f3;  border-color: #9a47cb; border-radius: 50%; padding: 2.5px; margin: 50px;">
             <div class="card-body">
               <h5 class="card-title">Mon</h5>
               <p class="card-text">5℃</p>
@@ -92,7 +103,7 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 10px; background-color: #5a3d5c;">
+          <div class="card w-25" style="background-color: #ff80f3; border-color:#9a47cb; border-radius: 50%; padding: 2.5px; margin: 50px;">
             <div class="card-body">
               <h5 class="card-title">Tue</h5>
               <p class="card-text">5℃</p>
@@ -103,7 +114,7 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 10px; background-color: #5a3d5c; ">
+          <div class="card w-25" style="background-color: #ff80f3; border-color:#9a47cb; border-radius:50%; padding: 2.5px; margin: 50px;">
             <div class="card-body">
               <h5 class="card-title">Wed</h5>
               <p class="card-text">5℃</p>
@@ -114,7 +125,7 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 10px; background-color: #5a3d5c; ">
+          <div class="card w-25" style="background-color: #ff80f3; border-color:#9a47cb; border-radius: 50%; padding: 2.5px; margin: 50px;">
             <div class="card-body">
               <h5 class="card-title">Thu</h5>
               <p class="card-text">5℃</p>
@@ -125,7 +136,7 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 10px; background-color: #5a3d5c; ">
+          <div class="card w-25" style="background-color: #ff80f3; border-color:#9a47cb; border-radius: 50%; padding: 2.5px; margin: 50px;">
             <div class="card-body">
               <h5 class="card-title">Fri</h5>
               <p class="card-text">5℃</p>
@@ -136,14 +147,14 @@
               </p>
             </div>
           </div>
-        </div>
-      </div>
-      <br />
-       <a href="https://github.com/kusinicevaa/Weather-App">
+        </div>  
+        <br />
+        <br />
+        <!-- Signature -->
+        <a href="https://github.com/kusinicevaa/Weather-App">
         Open source by Arina K
-      </a>
-    </div>
-    </div>
-    <script src="src/index.js"></script>
+        </a>
+     </div>
+    <script src="src/index.js"></script></div>
   </body>
 </html>
