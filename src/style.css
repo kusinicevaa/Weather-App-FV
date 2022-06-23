@@ -15,6 +15,11 @@ i {
 }
 a {
   color: #94f6f2;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: #ff80f3;
 }
 
 /* //color palette
